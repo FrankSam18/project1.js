@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
-import Image from "../../assets/images/upload4.png";
+import Image from "../../assets/images/upload3.png";
 
-const interest2 = () => {
+const Reason = () => {
   return <Layout image={Image}> </Layout>;
 };
 
-export default interest2;
+export default Reason;
