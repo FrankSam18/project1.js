@@ -5,6 +5,7 @@ import Image from "../../assets/images/register.png";
 import "./Register.css";
 import TextInput from "../../components/TextInput/TextInput";
 import Button from "../../components/Button/Button";
+import Button1 from"../../components/Button1/button1";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {
@@ -39,7 +40,7 @@ const Register = () => {
             type="email"
             name="email"
             label="Email"
-            placeholder="u@gmail.com"
+            placeholder="🫥@gmail.com"
             required={true}
             onChange={(value) => setForm({ ...form, email: value })}
           />
@@ -53,6 +54,8 @@ const Register = () => {
           />
           <br />
           <Button type="submit" label="Create Account" className="button" />
+          <br />
+          <Button1 type="submit" label="Sign up with Google" className="button1" />
         </form>
       </div>
     </Layout>

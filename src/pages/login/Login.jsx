@@ -23,7 +23,7 @@ const LoginPage = () => {
   }
 
   return (
-    <Layout image={Image} step={1} page="register">
+    <Layout image={Image} step={2} page="register">
       <div className="register-container">
         <h1 className="page-title">LOGIN</h1>
         <form onSubmit={handleForm}>
